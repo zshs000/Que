@@ -248,6 +248,7 @@ export const zhTWLocale: LocalePlugin = {
     "machines.error.HOST_KEY": "主機指紋驗證失敗，請核對指紋後重新連線。",
     "machines.error.AUTH_REQUIRED": "請輸入 SSH 密碼或私鑰密語後連線。",
     "machines.error.CONNECTION_FAILED": "連線失敗，請檢查主機及 SSH 設定後重試。",
+    "machines.error.WORKSPACE_COMMAND_FAILED": "無法執行遠端工作區所需的命令，請確認該伺服器及目前帳號允許執行 Shell 命令。",
     "machines.error.SOCKET_PATH": "無法建立本機 SSH 通訊，請重試。",
     "machines.error.TIMEOUT": "連線逾時，請檢查網路或 VPN 後重試。",
     "machines.error.REFUSED": "主機拒絕連線，請檢查 SSH 連接埠及服務。",

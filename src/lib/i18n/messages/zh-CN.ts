@@ -248,6 +248,7 @@ export const zhCNLocale: LocalePlugin = {
     "machines.error.HOST_KEY": "主机指纹校验失败，请核对指纹后重新连接。",
     "machines.error.AUTH_REQUIRED": "请输入 SSH 密码或私钥口令后连接。",
     "machines.error.CONNECTION_FAILED": "连接失败，请检查主机和 SSH 配置后重试。",
+    "machines.error.WORKSPACE_COMMAND_FAILED": "无法执行远程工作区所需的命令，请确认该服务器及当前账号允许执行 Shell 命令。",
     "machines.error.SOCKET_PATH": "无法建立本地 SSH 通信，请重试。",
     "machines.error.TIMEOUT": "连接超时，请检查网络或 VPN 后重试。",
     "machines.error.REFUSED": "主机拒绝连接，请检查 SSH 端口和服务。",

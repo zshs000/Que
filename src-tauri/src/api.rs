@@ -1339,7 +1339,7 @@ async fn machine_action_inner(state: &AppState, body: Value) -> AppResult<Value>
                             &format!("api: machines.connect home lookup FAILED host={host:?}"),
                             &error,
                         );
-                        return Err(error);
+                        return Err(AppError::machine("WORKSPACE_COMMAND_FAILED"));
                     }
                 };
                 return Ok(json!({ "cwd": cwd }));

@@ -20,7 +20,7 @@ export function machineErrorText(error: unknown, t: (key: string) => string): st
   const base = t(machineErrorKey(error));
   return detail ? `${base}（${detail}）` : base;
 }
-export const MACHINE_ERROR_CODES = ['HOST_TRUST_REQUIRED', 'HOST_KEY', 'AUTH_REQUIRED', 'CONNECTION_FAILED', 'SOCKET_PATH', 'TIMEOUT', 'REFUSED', 'HOST_NOT_FOUND', 'DIRECTORY', 'HOST_INVALID', 'HOST_DELETED', 'HOST_READ_ONLY', 'USER_INVALID', 'PORT_INVALID', 'PASSWORD_INVALID', 'LOCAL_PICKER', 'PATH_INVALID', 'REQUEST_FAILED'] as const as readonly string[];
+export const MACHINE_ERROR_CODES = ['HOST_TRUST_REQUIRED', 'HOST_KEY', 'AUTH_REQUIRED', 'CONNECTION_FAILED', 'WORKSPACE_COMMAND_FAILED', 'SOCKET_PATH', 'TIMEOUT', 'REFUSED', 'HOST_NOT_FOUND', 'DIRECTORY', 'HOST_INVALID', 'HOST_DELETED', 'HOST_READ_ONLY', 'USER_INVALID', 'PORT_INVALID', 'PASSWORD_INVALID', 'LOCAL_PICKER', 'PATH_INVALID', 'REQUEST_FAILED'] as const as readonly string[];
 
 /**
  * Whether this failure is the SSH layer asking for a secret: either the host

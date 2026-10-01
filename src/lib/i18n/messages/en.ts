@@ -248,6 +248,7 @@ export const enLocale: LocalePlugin = {
     "machines.error.HOST_KEY": "The saved host fingerprint does not match. Verify it before reconnecting.",
     "machines.error.AUTH_REQUIRED": "Enter your SSH password or key passphrase to connect.",
     "machines.error.CONNECTION_FAILED": "Could not connect. Check the host and SSH settings, then retry.",
+    "machines.error.WORKSPACE_COMMAND_FAILED": "Could not execute the commands required for a remote workspace. Check that the server and your account allow shell commands.",
     "machines.error.SOCKET_PATH": "Could not create the local SSH connection. Please retry.",
     "machines.error.TIMEOUT": "Connection timed out. Check the network or VPN, then retry.",
     "machines.error.REFUSED": "The host refused the connection. Check its SSH port and service.",
